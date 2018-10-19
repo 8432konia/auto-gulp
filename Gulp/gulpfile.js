@@ -5,8 +5,8 @@ cache = require("gulp-cached"),
 progeny = require("gulp-progeny"),
 browserSync = require("browser-sync"),
 mediaQuery = require("gulp-combine-media-queries"),
-// localProxy
-proxyPath = "localProxy名",
+// host設定
+proxyPath = "localhost名",
 projectPath = "プロジェクトのファイルパス";
 // style.scssをタスクを作成する
 gulp.task("compile", function () {
