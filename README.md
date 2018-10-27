@@ -24,3 +24,5 @@ file.contents = new Buffer(cssJson);をコメントアウトし
 npx gulp mediaQuery
 を起動するとメディアクエリがまとまります．
 
+またはmediaQuery.batをダブルクリックすれば使えます。
+
